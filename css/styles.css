@@ -4,6 +4,12 @@
     margin: 0;
     border: 0;
     font-size: 20px;
+
+}
+
+body {
+    background-color: black;
+
 }
 
 .container {
@@ -16,47 +22,40 @@
     height: 70vh;
     background-image: url("../img/obraz.jpg");
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
-    display: flex;
-
 
 }
-.header__container h1
-{
+
+.header__container h1 {
     color: white;
     font-size: 2.5em;
     opacity: 0.8;
     position: absolute;
     display: block;
     width: 100%;
-    top:40%;
+    top: 40%;
+    letter-spacing: 0.3em;
 }
 
-
-.nav__container
-{
-
-
-
+.nav__container {
 
 }
 
-.nav__container ul
-{
+.nav__container ul {
     display: flex;
     color: white;
     list-style-type: none;
-    justify-content:flex-end;
+    justify-content: flex-end;
     padding: 0;
+
 }
 
-.nav__container ul li
-{
-    padding:1em 2em;
-    background-color:white;
+.nav__container ul li {
+    padding: 1em 2em;
+    background-color: white;
     opacity: 0.5;
     border-radius: 10%;
     filter: brightness(40%);
@@ -65,22 +64,110 @@
     margin-right: 0.5em;
 }
 
-.nav__container ul li:hover
-
-{
+.nav__container ul li:hover {
     opacity: 0.9;
     cursor: pointer;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 650px) {
 
-    .nav__container ul
-    {
+    .nav__container ul {
         flex-direction: column;
-        position: absolute;
-
+        position: relative;
+        top: 70vh;
+        margin-right: 0 !important;
+        padding: 0;
 
     }
 
+}
 
+@media screen and (max-width: 650px) {
+
+    .nav__container ul li {
+
+        margin-right: 0 !important;
+        border-radius: 0;
+
+    }
+
+}
+
+.about_me__wrapper {
+    position: relative;
+    margin-top: 2em;
+    padding: 1em;
+    background-image: url("../img/obraz1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 650px) {
+
+    .about_me__wrapper {
+
+        margin-top: 43vh;
+
+    }
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    color: white;
+    filter: brightness(70%);
+
+}
+
+.projects__wrapper {
+    padding: 1em;
+    background-image: url("../img/obraz1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+}
+
+.music__wrapper {
+    padding: 1em;
+    background-image: url("../img/obraz1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+
+}
+
+.contact__wrapper {
+    padding: 1em;
+    background-image: url("../img/obraz1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+
+}
+
+.footer__wrapper {
+    height: 20vh;
+    background-color: black;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    filter: brightness(80%);
+}
+
+.rights {
+    background-color: white;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    padding: 1em 0;
+    filter: brightness(90%);
 }
