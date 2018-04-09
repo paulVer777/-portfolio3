@@ -60,7 +60,7 @@ body {
     border-radius: 10%;
     filter: brightness(40%);
     transition: opacity 0.5s;
-    color:white;
+    color:black;
     margin-right: 0.5em;
     margin-top: 0.2em;
 }
