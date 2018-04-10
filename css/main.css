@@ -9,9 +9,6 @@
 
 body {
 
-
-
-
 }
 
 .wrapper {
@@ -44,13 +41,11 @@ body {
 
 }
 
-h2
-{
+h2 {
     font-family: 'Dancing Script', cursive;
-
+    text-align: center;
+    text-underline: black;
 }
-
-
 
 .nav__container {
 
@@ -112,7 +107,7 @@ h2
         margin-right: 0 !important;
         border-radius: 0;
         padding: 0.5em;
-        background-color:#70331d;
+        background-color: #70331d;
     }
 
 }
@@ -126,19 +121,69 @@ h2
 
 }
 
-.box
-{
+.box {
 
-    height:50vh;
+    height: 50vh;
     background-image: url("../img/obraz5.jpg");
     padding: 1em;
 }
 
+#about {
 
+}
 
-#about
-{
+.exp__wrapper {
 
-    background-color: #9fcdff;
+    height: 70vh;
+    padding: 5vh;
+}
 
+@media screen and (max-width: 672px) {
+
+    #under {
+        margin-top: 35vh;
+
+    }
+
+}
+
+.footer__wrapper {
+
+    height: 30vh;
+    background-image: url("../img/constelation.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+
+.footer__wrapper div {
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+.footer__wrapper {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.rights {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+}
+
+.footer__wrapper div:hover {
+
+    opacity:0.9;
+    transform: rotate(1deg);
+    cursor: pointer;
 }
