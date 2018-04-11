@@ -128,10 +128,6 @@ h2 {
     padding: 1em;
 }
 
-#about {
-
-}
-
 .exp__wrapper {
 
     height: 70vh;
@@ -183,7 +179,7 @@ h2 {
 
 .footer__wrapper div:hover {
 
-    opacity:0.9;
+    opacity: 0.9;
     transform: rotate(1deg);
     cursor: pointer;
 }
